@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-tabs>
+    <ion-tab-bar slot="top">
+      <ion-tab-button tab="logo">
+        <img src="assets/danis.jpg" alt="Logo">
+      </ion-tab-button>
+      <ion-tab-button (click)="goToHomePage()" tab="home">
+        Home
+      </ion-tab-button>
+      <ion-tab-button (click)="goToAboutPage()" tab="about">
+        About Us
+      </ion-tab-button>
+      <ion-tab-button (click)="goToServicePage()" tab="services">
+        Services
+      </ion-tab-button>
+      <ion-tab-button (click)="goToPortfolioPage()" tab="portfolio">
+        Portfolio
+      </ion-tab-button>
+      <ion-tab-button (click)="goToLocationPage()" tab="location">
+        Location
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>

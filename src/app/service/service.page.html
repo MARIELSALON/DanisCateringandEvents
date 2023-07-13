@@ -1,0 +1,61 @@
+<ion-header [translucent]="true">
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-tabs>
+    <ion-tab-bar slot="top">
+      <ion-tab-button tab="logo">
+        <img src="assets/danis.jpg" alt="Logo">
+      </ion-tab-button>
+      <ion-tab-button (click)="goToHomePage()" tab="home">
+        Home
+      </ion-tab-button>
+      <ion-tab-button (click)="goToAboutPage()" tab="about">
+        About Us
+      </ion-tab-button>
+      <ion-tab-button (click)="goToServicePage()" tab="services">
+        Services
+      </ion-tab-button>
+      <ion-tab-button (click)="goToPortfolioPage()" tab="portfolio">
+        Portfolio
+      </ion-tab-button>
+      <ion-tab-button (click)="goToLocationPage()" tab="location">
+        Location
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+  <div class="card-container">
+    <ion-card>
+      <img class="package" alt="Wedding Package" src="/assets/weddings.jpg" />
+          <ion-card-header>
+            <ion-card-title>Wedding Packages</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-button (click)="goToWeddingPackage()">see more...</ion-button>
+          </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <img class="package" alt="Catering Package" src="/assets/cateringg.jpg" />
+          <ion-card-header>
+            <ion-card-title>Catering Packages</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-button (click)="goToCateringPackage()">see more...</ion-button>
+          </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <img class="package" alt="Birthday Package" src="/assets/birthday.jpg" />
+      <ion-card-header>
+        <ion-card-title>Birthday Packages</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-button (click)="goToBirthdayPackage()">see more...</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  
+
+</ion-content>

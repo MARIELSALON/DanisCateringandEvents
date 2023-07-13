@@ -1,0 +1,53 @@
+img {
+    height: 80px;
+    width: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  ion-tab-bar {
+    height: 100px;
+  }
+  ion-app {
+    margin-top: 8%;
+  }
+
+  
+  .card-container {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 20px;
+    height: 50%;
+  }
+  
+  .card-container ion-card {
+    margin-right: 20px;
+    width: 50%;
+    margin-left: 20px;
+  }
+  
+  .media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Adjust the desired height */
+    width: auto;
+  }
+  
+  .media-container img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+  .package {
+    height: 40%;
+    width: fit-content;
+  }
+  ion-button {
+    color: black;
+  }
+  ion-tab-button {
+  --color: rgb(245, 221, 3);
+}
+  

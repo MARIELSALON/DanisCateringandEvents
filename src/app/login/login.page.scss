@@ -1,0 +1,66 @@
+img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container img {
+    width: 30%; /* or any specific width you want */
+    height: 30%; /* or any specific height you want */
+    object-fit: contain; /* or "cover" for a different behavior */
+    top: 50px;
+    left: 5px;
+  }
+  
+  .button-container {
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    margin-top: 80px;
+  }
+
+  .text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px; /* Adjust the padding as needed */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  
+  .lower-left-text {
+    margin: 10%;
+    color: white;
+    font-size: 175%;
+    margin-left: 2%;
+    font-family:'Dancing Script', cursive;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-container {
+    width: 800px; 
+    height: 300px; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    margin-left: 30%;
+  }
+  
+  .login-container ion-input {
+    width: 100%;
+    margin-bottom: 10px; 
+  }
+
+.ion-title {
+  font-size: 500px;
+  margin-bottom: 10%;
+}

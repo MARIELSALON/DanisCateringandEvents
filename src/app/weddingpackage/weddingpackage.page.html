@@ -1,0 +1,72 @@
+<ion-header [translucent]="true">
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-tabs>
+    <ion-tab-bar slot="top">
+      <ion-tab-button tab="logo">
+        <img src="assets/danis.jpg" alt="Logo">
+      </ion-tab-button>
+      <ion-tab-button (click)="goToHomePage()" tab="home">
+        Home
+      </ion-tab-button>
+      <ion-tab-button (click)="goToAboutPage()" tab="about">
+        About Us
+      </ion-tab-button>
+      <ion-tab-button (click)="goToServicePage()" tab="services">
+        Services
+      </ion-tab-button>
+      <ion-tab-button (click)="goToPortfolioPage()" tab="portfolio">
+        Portfolio
+      </ion-tab-button>
+      <ion-tab-button (click)="goToLocationPage()" tab="location">
+        Location
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+  <ion-app>
+    <ion-split-pane contentId="main-content">
+      <ion-menu side="start" contentId="main-content">
+        <ion-content>
+        <ion-button (click)="goToWeddingPackage()">Wedding Packages</ion-button>
+        <ion-button (click)="goToCateringPackage()" class="transparent-button">Catering Packages</ion-button>
+        <ion-button (click)="goToBirthdayPackage()" class="transparent-button">Birthday Package</ion-button>
+        </ion-content>
+      </ion-menu>
+        
+      <ion-router-outlet id="main-content"></ion-router-outlet>
+    </ion-split-pane>
+  </ion-app>
+
+<div class="card-container">
+  <ion-card>
+    <img src="assets/cover 1.jpg" alt="Package 1" class="card-image" />
+    <ion-card-content>
+      <ion-card-title>Package 1</ion-card-title>
+      <ion-button>see more...</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img src="assets/cover 2.jpg" alt="Package 2" class="card-image" />
+    <ion-card-content>
+      <ion-card-title>Package 2</ion-card-title>
+      <ion-button>see more...</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+  <img src="assets/cover 3.jpg" alt="Package 3" class="card-image" />
+    <ion-card-content>
+      <ion-card-title>Package 3</ion-card-title>
+      <ion-button>see more...</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="custom-card">
+    <ion-card-content>
+      <ion-card-title>Package 1</ion-card-title>
+      see more...
+    </ion-card-content>
+  </ion-card>
+</div>

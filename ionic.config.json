@@ -1,0 +1,7 @@
+{
+  "name": "DCaE-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
