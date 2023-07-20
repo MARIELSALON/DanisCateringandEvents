@@ -13,5 +13,5 @@
   <img src="sdg.png" width="1000"/> <br>
  https://sdg.neda.gov.ph/goal-8/ <br>
 
-
+<p align="justify"> The system is design and develop a web-based wedding supplier system for Dani's Catering and Events to
  
