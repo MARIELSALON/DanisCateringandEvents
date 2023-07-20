@@ -13,5 +13,11 @@
   <img src="sdg.png" width="1000"/> <br>
  https://sdg.neda.gov.ph/goal-8/ <br>
 
-<p align="justify"> The system is design and develop a web-based wedding supplier system for Dani's Catering and Events to
+<p align="justify"> Dani's Catering and Events not only focus on supplying the wedding bt it offers other packages on the different kinds/type of events. The system is design and develop a web-based wedding supplier system for Dani's Catering and Events to evaluate the system in terms of user acceptability, effectiveness, quality, productivity and dependability and to provide a feature that allows the users to customize the package depending on the things needed on the wedding. With the help of the system, the target user could have knowledge and understanding of the possible costs that may add to the transactions. </p>
+  
+<p align="justify"> We’re going to start from the login. It requires the customer to login first before they can access the data inside. It requires you to fill up the fields of username and password in order to login. Next, after you login. You can now browse the system, on the other hand, the other modules are  under construction as we focus on the service module. Under the service module, it allows the user to view and see all the packages/services available on the company. They can choose based on the categories of events that the company caters. After choosing the categories, the system will display all the packages and services under these categories. Upon viewing the packages it allows the customer to choose by selecting it. After selecting the package that the customer wants, the system will generate the package receipt and the reservation form to be filled up by the customer. 
+
+
+
+
  
